@@ -5,7 +5,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Podaj dzialanie (add, substract, div, mul)");
+        System.out.println("Podaj dzialanie (add, substract, div, mul, pow)");
         String dzialanie = sc.nextLine();
         System.out.println("Podaj liczbe 1:");
         double liczba1 = Integer.parseInt(sc.nextLine());
@@ -24,7 +24,7 @@ public class Main {
         } else if (dzialanie.equals("mul")) {
             MulEquation mul = new MulEquation(liczba1, liczba2);
             System.out.println(mul.calculate());
-        } else { PowEquation pow = new PowEquation(liczba1, liczba2);
+        } else if (dzialanie.equals("pow")){ PowEquation pow = new PowEquation(liczba1, liczba2);
             System.out.println(pow.calculate());
         }
 
