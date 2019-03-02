@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.println("Podaj dzialanie (add, substract, div, mul, pow)");
         String dzialanie = sc.nextLine();
         System.out.println("Podaj liczbe 1:");
