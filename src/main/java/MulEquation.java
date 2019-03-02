@@ -5,4 +5,8 @@ public class MulEquation implements ICalculable {
     private double a;
     private double b;
 
+    public MulEquation(double a, double b) {
+        this.a = a;
+        this.b = b;
+    }
 }

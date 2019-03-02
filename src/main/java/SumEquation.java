@@ -7,5 +7,8 @@ public class SumEquation implements ICalculable {
         return a + b;
     }
 
-
+    public SumEquation(double a, double b) {
+        this.a = a;
+        this.b = b;
+    }
 }

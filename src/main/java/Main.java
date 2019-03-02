@@ -2,11 +2,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        SumEquation add = new SumEquation();
-        SubstractEquation sub = new SubstractEquation();
-        DivEquation div = new DivEquation();
-        MulEquation mul = new MulEquation();
-        PowEquation pow = new PowEquation();
+        SumEquation add = new SumEquation(10, 2);
 
     }
 }

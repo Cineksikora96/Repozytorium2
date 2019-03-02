@@ -4,4 +4,9 @@ public class PowEquation implements ICalculable {
     }
     private double n;
     private double pow;
+
+    public PowEquation(double n, double pow) {
+        this.n = n;
+        this.pow = pow;
+    }
 }
