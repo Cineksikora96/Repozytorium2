@@ -4,4 +4,5 @@ public class MulEquation implements ICalculable {
     }
     private double a;
     private double b;
+
 }

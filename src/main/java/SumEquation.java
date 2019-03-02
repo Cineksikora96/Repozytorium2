@@ -6,4 +6,6 @@ public class SumEquation implements ICalculable {
     public double calculate() {
         return a + b;
     }
+
+
 }

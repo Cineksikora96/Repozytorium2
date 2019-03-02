@@ -6,5 +6,7 @@ public class Main {
         SubstractEquation sub = new SubstractEquation();
         DivEquation div = new DivEquation();
         MulEquation mul = new MulEquation();
+        PowEquation pow = new PowEquation();
+
     }
 }

@@ -4,4 +4,6 @@ public class DivEquation implements ICalculable {
     }
     private double a;
     private double b;
+
+
 }
