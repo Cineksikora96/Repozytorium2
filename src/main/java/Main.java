@@ -11,8 +11,7 @@ public class Main {
         double liczba1 = Integer.parseInt(sc.nextLine());
         System.out.println("Podaj liczbe 2:");
         double liczba2 = Integer.parseInt(sc.nextLine());
-
-        while (!dzialanie.equals("quit")) {
+        
         if (dzialanie.equals("add")) {
             SumEquation add = new SumEquation(liczba1, liczba2);
             System.out.println(add.calculate());
@@ -28,6 +27,6 @@ public class Main {
         } else { PowEquation pow = new PowEquation(liczba1, liczba2);
             System.out.println(pow.calculate());
         }
-        }
+
     }
 }
